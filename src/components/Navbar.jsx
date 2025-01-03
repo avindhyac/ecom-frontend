@@ -17,23 +17,19 @@ const Left = styled.div`
 	flex: 1;
 	display: flex;
 	align-items: center;
-`;
-
-const Language = styled.span`
-	font-size: 14px;
-	cursor: pointer;
+	justify-content: flex-start;
 `;
 
 const SearchContainer = styled.div`
 	border: 1px solid lightgray;
 	display: flex;
 	align-items: center;
-	margin-left: 25px;
 	padding: 5px;
 `;
 
 const Input = styled.input`
 	border: none;
+	background-color: whitesmoke;
 `;
 
 const Center = styled.div`
@@ -65,7 +61,6 @@ function Navbar() {
 		<Container>
 			<Wrapper>
 				<Left>
-					<Language>EN</Language>
 					<SearchContainer>
 						<Input />
 						<SearchIcon style={{ color: '#CD5C5C', fontSize: '16px ' }} />
