@@ -1,5 +1,14 @@
+import Navbar from "../components/Navbar.jsx";
+import Announcements from "../components/Announcements.jsx";
+import Slider from "../components/Slider.jsx";
 function Home() {
-	return <div>Home</div>;
+  return (
+    <>
+      <Announcements />
+      <Navbar />
+      <Slider />
+    </>
+  );
 }
 
 export default Home;
